@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EcosSys</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fuente elegante -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href= "./css/style.css">
+</head>
+<!--BODY-->
+<body>
+    <header>
+    <div class="logo-nombre">
+        <a href="index.html" class="logo-link" style="text-decoration: none; color: white;">
+        <img src="logoEcosys.png" alt="Logo del sitio" class="logo-img">
+        <span class="logo-titulo">EcoSys</span>
+        </a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.nav-derecha').classList.toggle('active')">☰</button>
+    <nav class="nav-derecha">
+        <div class="nav-categorias">
+        <button tabindex="0">Categorías ▾</button>
+        <div class="dropdown-menu">
+            <a href="articulo.html">Artículos</a>
+            <a href="videos.html">Videos</a>
+            <a href="practicas.html">Prácticas sostenibles</a>
+        </div>
+        </div>
+        <a href="#">Sobre Nosotros</a>
+    </nav>
+    </header>
+    <!--ZONA VIDOEOS-->
+  <main>
+    <nav class="breadcrumb">
+        <a href="#">Videos</a> ›Lo más reciente
+      </nav>
+      <section class="video-section">
+    <h2>Lo Último</h2>
+    <!--ZONA VIDOEOS-->
+    <div class="video-grid">
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/FB2b552qg50" title="Video 1" allowfullscreen></iframe>
+        <p>Plan de Minimización y Manejo de Residuos Solidos</p>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/rJ-nU6RjD3g" title="Video 2" allowfullscreen></iframe>
+        <p>¿Qué son los residuos solidos?</p>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/9g2nfYotXCk" title="Video 3" allowfullscreen></iframe>
+        <p>Buenas practicas de Manejo de Residuo Solidos</p>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/IrZMu8LZXDE" title="Video 4" allowfullscreen></iframe>
+        <p>Estudiantes protestan por contaminación que rodea el colegio</p>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/VCyeMtfOYLc" title="Video 4" allowfullscreen></iframe>
+        <p>Campaña "Techo Limpio" erradicó 25 toneladas de inservivbles en El Bosque</p>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/SsvCH_Nry1Q" title="Video 4" allowfullscreen></iframe>
+        <p>Lanzan estación de reciclaje en urbanización El Bosque</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+
+      <!-- Navegación -->
+      <div class="footer-column">
+        <h3>NAVEGACIÓN</h3>
+        <ul>
+          <li><a href="politica.html">Política de privacidad</a></li>
+          <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        </ul>
+      </div>
+
+      <!-- Categorías -->
+      <div class="footer-column">
+        <h3>CATEGORÍAS</h3>
+        <ul>
+          <li><a href="articulo.html">Artículos</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="practicas.html">Prácticas sostenibles</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright-footer">
+      © EcoSys 2025 – Derechos reservados
+    </div>
+  </footer>
+
+</body>
+</html>

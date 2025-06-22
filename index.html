@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EcosSys</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/educacion.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo-nombre">
+      <a href="index.html" class="logo-link" style="text-decoration: none; color: white;">
+        <img src="logoEcosys.png" alt="Logo del sitio" class="logo-img">
+        <span class="logo-titulo">EcoSys</span>
+      </a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.nav-derecha').classList.toggle('active')">☰</button>
+    <nav class="nav-derecha">
+      <div class="nav-categorias">
+        <button tabindex="0">Categorías ▾</button>
+        <div class="dropdown-menu">
+          <a href="articulo.html">Artículos</a>
+          <a href="videos.html">Videos</a>
+          <a href="practicas.html">Prácticas sostenibles</a>
+        </div>
+      </div>
+      <a href="nosotros.html">Sobre Nosotros</a>
+    </nav>
+  </header>
+
+  <main style="background: linear-gradient(135deg, #f5f9f6, #dbeee4);">
+
+  <!-- HERO -->
+  <section style="background: linear-gradient(to right, #2a2a1f, #2a2a1f); padding: 50px 20px; color: white; text-align: center;">
+    <h1 style="font-size: 3rem; margin-bottom: 20px;">Bienvenidos a <span style="color: #ffffff;">EcoSys</span></h1>
+    <p style="font-size: 1.2rem;">Tu espacio de conciencia ecológica y transformación ambiental</p>
+  </section>
+
+<!-- SECCIÓN DESTACADA -->
+<section style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; padding: 60px 20px;">
+  <a href="realidad.html" style="flex: 1 1 300px; background: white; border-radius: 12px; padding: 20px; text-align: center; text-decoration: none; color: inherit; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <img src="hermelinda.jpeg" alt="Naturaleza" style="width: 100%; border-radius: 00px; margin-bottom: 15px;">
+    <h3>La Realidad Ambiental</h3>
+    <p>Trujillo vive una crisis que necesita acción inmediata.</p>
+  </a>
+
+  <a href="residuos.html" style="flex: 1 1 300px; background: white; border-radius: 12px; padding: 20px; text-align: center; text-decoration: none; color: inherit; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <img src="gestionresiduos.jpg" alt="Residuos" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+    <h3>Gestión de Residuos</h3>
+    <p>Retos, soluciones y la necesidad de educación ambiental.</p>
+  </a>
+
+  <a href="ciudades.html" style="flex: 1 1 300px; background: white; border-radius: 12px; padding: 20px; text-align: center; text-decoration: none; color: inherit; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <img src="areas verdes.jpg" alt="Ciudad Sostenible" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+    <h3>Ciudades Verdes</h3>
+    <p>¿Cómo sería una Trujillo limpia y organizada? Inspírate.</p>
+  </a>
+</section>
+
+  <!-- FRASE DESTACADA -->
+
+  
+
+
+<!-- BENEFICIOS DE USAR ECOSYS -->
+<section style="padding: 60px 20px; background: white;">
+  <h2 style="text-align: center; margin-bottom: 40px;">¿Por qué elegir EcoSys?</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: auto;">
+    
+    <!-- Tarjeta 1 -->
+    <div style="flex: 1 1 300px; position: relative; height: 250px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-image: url('libro mundo.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.45); color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; text-align: center;">
+        <h4 style="margin-bottom: 10px;">Últimos artículos</h4>
+        <p>Acceso libre a información ambiental clara y verificada.</p>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div style="flex: 1 1 300px; position: relative; height: 250px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-image: url('edu.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.45); color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; text-align: center;">
+        <h4 style="margin-bottom: 10px;">Conciencia con impacto</h4>
+        <p>Motivamos cambios reales desde la ciudadanía.</p>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div style="flex: 1 1 300px; position: relative; height: 250px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-image: url('parque.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.45); color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; text-align: center;">
+        <h4 style="margin-bottom: 10px;">Enfoque sostenible</h4>
+        <p>Todo nuestro contenido promueve prácticas sostenibles aplicables.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+</main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+
+      <!-- Navegación -->
+      <div class="footer-column">
+        <h3>NAVEGACIÓN</h3>
+        <ul>
+          <li><a href="politica.html">Política de privacidad</a></li>
+          <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        </ul>
+      </div>
+
+      <!-- Categorías -->
+      <div class="footer-column">
+        <h3>CATEGORÍAS</h3>
+        <ul>
+          <li><a href="articulo.html">Artículos</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="practicas.html">Prácticas sostenibles</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright-footer">
+      © EcoSys 2025 – Derechos reservados
+    </div>
+  </footer>
+
+</body>
+</html>
